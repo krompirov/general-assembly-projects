@@ -1,11 +1,11 @@
 # Project 1: SAT & ACT analysis (2017/18)
-***
+
 ## Introduction
 The SAT and ACT are 2 popular standardized tests used in the USA for college admissions. They each have their own subtests and grading scheme, which means comparing the results of these 2 tests is not straightforward. In general, students opt to take one test over the other, and this is largely down to state and regional trends.
 
 In this notebook we explore trends in participation rates and test scores for the SAT and ACT for 2017 and 2018. Of especial interest to us are participation rates for the SAT. Together with other additional research, we will discuss factors which affect participation rates, and put forward recommendations to increase participation in the SAT.
 
-***
+
 ## Data exploration
 #### Importing and cleaning
 We start by ensuring our data is cleaned and correctly typed. Erroneous values are fixed.
@@ -18,21 +18,21 @@ Together with our visualizations, we describe basic summary statistics for our v
 #### Additional research
 Armed with our analysis and observations, we further investigate factors which affect our variable of interest, SAT participation rates.
 
-***
+
 ## Summary of findings and additional research
-Participation rates tend to be biased towards full participation or low participation, with values around 50% being less common. This is because in states that have chosen to forgo their own standardized testing in favor of the SAT or ACT, they will often mandate one of these tests across the state but not both. There are many more states that have mandated the ACT than the SAT, and this shows up in our analysis. The median rate for the ACT in 2018 is 66% while that for the SAT is 52%.
+Participation rates tend to be biased towards full participation or low participation, with values around 50% being less common. This is because in states that have chosen to forgo their own standardized testing in favor of the SAT or ACT, [they will often mandate one of these tests](https://www.testive.com/colorado-sat-change-2017/) across the state but not both. [There are many more states that have mandated the ACT than the SAT](https://www.testive.com/state-sat-act/), and this shows up in our analysis. The median rate for the ACT in 2018 is 66% while that for the SAT is 52%.
 
 While educational policy regarding the use of the SAT/ACT is a big factor in determining participation rates, two other factors have come up in our research.
 
-The first is the level of financial support given by the state. States which make a test free for their students to take tend to see high levels of participation. Often, states which mandate the use of these tests will also sponsor the costs involved.
+The first is the [level of financial support](https://www.collegeraptor.com/getting-in/articles/act-sat/states-act-sat-given-free/) given by the state. States which make a test free for their students to take tend to see high levels of participation. Often, states which mandate the use of these tests will also sponsor the costs involved.
 
-The second factor is the logistical accessibility of taking these tests. States that devote a day to holding these tests on-campus, on a school day, also see increased participation. By eliminating the need for students to travel to an external test center outside of school hours, students find it much easier to take these tests.
+The second factor is the logistical accessibility of taking these tests. States that devote a day to holding these tests on-campus, on a school day, also see increased participation. The [SAT School Day](https://reports.collegeboard.org/archive/sat-suite-program-results/2018/sat-school-day) is one such program dedicated to this. By eliminating the need for students to travel to an external test center outside of school hours, students find it much easier to take these tests.
 
 In general, measures that seek to reduce accessibility barriers for these tests will help boost participation. As such, we recommend that the College Board seek out states in which they can work with regulators to reduce these barriers.
 
-One such state is Arizona, whose SAT participation rate currently sits around 30%, which makes it a suitable opportunity to explore. Arizona does not yet mandate either the SAT or ACT, and consequently, they also do not have full statewide funding to sponsor all students. They also currently use their own high school assessment, the AzMERIT. The College Board should work with regulators to examine how the SAT can be suitable replacement for the AzMERIT, while supporting ongoing efforts to make testing financially and logistically accessible to all students.
+One such state is Arizona, whose SAT participation rate currently sits around 30%, which makes it a suitable opportunity to explore. Arizona [does not yet mandate either the SAT or ACT](https://www.azcentral.com/story/news/local/arizona-education/2017/12/26/house-bill-2037-proposes-free-sat-and-act-tests-all-arizona-juniors-azmerit/977487001/), and consequently, they also do not have full statewide funding to sponsor all students. They also currently use their own high school assessment, the [AzMERIT](https://www.azcentral.com/story/news/politics/arizona-education/2018/02/26/arizona-high-school-students-testing-options-azmerit-sat-act-ap-cambridge/373497002/). The College Board should work with regulators to examine how the SAT can be suitable replacement for the AzMERIT, while supporting ongoing efforts to make testing financially and logistically accessible to all students.
 
-***
+
 ## Data dictionary
 
 |Feature|Type|Dataset|Description|
