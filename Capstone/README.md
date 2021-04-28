@@ -1,4 +1,4 @@
-Draft commit for Capstone project
+# Detecting negative attentional states in pilots 
 
 DATASET:
 Please download at: https://www.kaggle.com/c/reducing-commercial-aviation-fatalities/data
