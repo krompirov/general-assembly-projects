@@ -1,9 +1,20 @@
-# Detecting negative attentional states in pilots 
+# Detecting negative attentional states in pilots
 
 DATASET:
 Please download at: https://www.kaggle.com/c/reducing-commercial-aviation-fatalities/data
 
 Only train.csv is required for this repo.
+
+## Libraries required
+
+biosspy
+
+NeuroKit2
+
+Pywt
+
+tsfresh
+
 
 ## Introduction
 In aviation, operational safety is of paramount importance. For any activity in aviation you can think of, there probably exists a safety manual for it. Maintaining the highest levels of safety requires everyone to constantly be at the top of their game. However, it is also a fact that air crew are only human, and sometimes, fatigue and long hours of work could cause unintentional lapses in safety standards. The very unfortunate [2002 Uberlingen mid-air collision](https://www.skybrary.aero/index.php/T154_/_B752,_en-route,_Uberlingen_Germany,_2002) involving 2 aircraft was an example of how a distracted Air Traffic Controller failed to ensure the proper safety standards in maintaining aircraft separation. Pilots, too, are not exempt from such situations. That is why a robust system of having 1-2 extra co-pilots rotating exists, to prevent fatigue from affecting safety standards.
