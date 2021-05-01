@@ -11,9 +11,12 @@ Project 1
 
 Project 2
   - Ames housing prices - predicting prices using regression models
-  
+
 Project 3
+  - Reddit Classifier - identifying which subreddit a given post comes from
 
 Project 4
+  - Predicting the prevalence of West Nile Virus in Chicago using historical meteorological data
 
 Capstone
+  - Detecting negative attentional states in pilots using biomedical signal data.
